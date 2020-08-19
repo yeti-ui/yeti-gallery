@@ -1,0 +1,18 @@
+{
+  "name": "yeti-gallery",
+  "version": "0.0.1",
+  "description": "This is my awesome gallery for Vue",
+  "main": "dist/index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "serve": "vue serve example/root.vue"
+  },
+  "author": "Vlad Gorbachev[@hennque]",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli": "^4.5.4",
+    "@vue/cli-service-global": "^4.5.4",
+    "vuepress": "^1.5.3"
+  }
+}
